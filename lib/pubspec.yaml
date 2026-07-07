@@ -1,0 +1,22 @@
+name: aura_scanner
+description: A premium scanner app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mlkit_document_scanner: ^0.3.0
+  google_mlkit_text_recognition: ^0.14.0
+  image_picker: ^1.1.2
+  dart_openai: ^5.1.0
+  flutter_contacts: ^1.1.9
+  path_provider: ^2.1.4
+  share_plus: ^9.0.0
+  cupertino_icons: ^1.0.8
+
+flutter:
+  uses-material-design: true
